@@ -1,0 +1,1 @@
+from(foo.ttl) where(foo.pred = "<http://www.cw.org/problem7/#predicate>" OR foo.obj = "0" OR foo.obj = "-1" OR foo.subj = "<http://www.cw.org/problem7/#subject>") out (*) else (.)

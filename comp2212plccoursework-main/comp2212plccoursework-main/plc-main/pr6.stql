@@ -1,0 +1,1 @@
+from(foo.ttl, bar.ttl, baz.ttl) where (foo.obj = bar.obj OR baz.obj = bar.obj) out(.) else(*)

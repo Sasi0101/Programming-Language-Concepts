@@ -1,0 +1,16 @@
+  @base <http://www.cw.org/> .
+  @prefix ta: <http://www.cw.org/testSubD/> .
+  @prefix tb: <testSubE/> .
+  <testSubA> <testPredA> -25 .
+  <testSubB> <testPredA> -1 .
+  <testSubB> <testPredA> 0 .
+  <testSubB> <testPredA> 1 .
+  <testSubB> <testPredA> 23 .
+  <testSubB> <testPredA> 98 .
+  <testSubB> <testPredA> 99 .
+  <testSubC> <testPredB> 101 .
+  <testSubC> <testPredB> 122 .
+  ta:testSub1 ta:testSub2 23 .
+  tb:testSub2 tb:testSub2 56 . 
+  <testSubF> <testPredL1> 3 ;  <testPredL2> 30 ; <testPredL1> 300 .
+  <testSubG> <testPredL2> 5 , 50, 500 .

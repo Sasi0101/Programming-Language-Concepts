@@ -1,0 +1,1 @@
+from(foo.ttl) where (foo.subj = "<http://www.cw.org/problem10/#maxValue>" AND foo.pred = "<http://www.cw.org/problem10/#isValue>") out (*) else (.)

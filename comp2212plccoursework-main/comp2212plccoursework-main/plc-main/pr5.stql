@@ -1,0 +1,1 @@
+from (foo.ttl) where (foo.obj > "-1" AND foo.obj < "100") out (_ _ +1, _ "<http://www.cw.org/problem5/#inRange>" true) else ( _ "<http://www.cw.org/problem5/#inRange>" false)

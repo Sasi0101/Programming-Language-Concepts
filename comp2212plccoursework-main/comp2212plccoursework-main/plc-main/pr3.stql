@@ -1,0 +1,1 @@
+from (foo.ttl) where ( foo.pred = "<http://www.cw.org/problem3/#predicate1>" OR foo.pred = "<http://www.cw.org/problem3/#predicate2>" OR foo.pred = "<http://www.cw.org/problem3/#predicate3>") out (*) else (.)

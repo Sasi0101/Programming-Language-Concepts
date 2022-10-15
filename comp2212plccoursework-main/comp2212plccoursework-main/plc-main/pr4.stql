@@ -1,0 +1,1 @@
+from (foo.ttl, bar.ttl) where (bar.obj = foo.subj OR foo.obj = bar.subj) out (*) else (.)

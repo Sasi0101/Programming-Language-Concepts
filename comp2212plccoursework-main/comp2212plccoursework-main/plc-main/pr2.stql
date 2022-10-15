@@ -1,0 +1,1 @@
+from (foo.ttl) where (foo.subj = "<http://www.cw.org/#problem2>" AND foo.obj = "true") out (*) else (.)

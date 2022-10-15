@@ -1,0 +1,1 @@
+from(foo.ttl, bar.ttl, baz.ttl) where (foo.pred = bar.pred AND foo.obj = baz.obj AND foo.obj = "<>") out (*) else (.)

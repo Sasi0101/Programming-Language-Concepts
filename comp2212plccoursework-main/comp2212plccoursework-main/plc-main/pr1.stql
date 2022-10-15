@@ -1,0 +1,1 @@
+from (foo.ttl, bar.ttl) where (.) out (*) else (.)
